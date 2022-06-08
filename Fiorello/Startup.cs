@@ -47,6 +47,10 @@ namespace Fiorello
                     "default",
                     "{controller=Home}/{action=Index}/{Id?}"
                     );
+                endpoints.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                    );
             });
         }
     }
