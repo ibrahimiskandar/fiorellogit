@@ -18,6 +18,7 @@ namespace Fiorello.Controllers
         public IActionResult Index()
         {
             List<Slide> slides = _context.Slides.ToList();
+            Summary summary = _context.Summary.FirstOrDefault();
             return View(slides);
         }
     }
