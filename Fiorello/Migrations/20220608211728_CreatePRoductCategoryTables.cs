@@ -13,7 +13,7 @@ namespace Fiorello.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(nullable: true),
-                    IsDeleted = table.Column<bool>(nullable: false)
+                    IsDeleted = table.Column<bool>(nullable: false,defaultValue:false)
                 },
                 constraints: table =>
                 {
@@ -30,7 +30,7 @@ namespace Fiorello.Migrations
                     Price = table.Column<double>(nullable: false),
                     Discount = table.Column<int>(nullable: false),
                     Count = table.Column<int>(nullable: false),
-                    IsDeleted = table.Column<bool>(nullable: false),
+                    IsDeleted = table.Column<bool>(nullable: false,defaultValue:false),
                     CategoryId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
