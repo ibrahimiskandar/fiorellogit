@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Fiorello",
+    "\\Fiorello\\DAL",
     "\\Fiorello\\Views",
     "\\Fiorello\\Views\\Shared"
   ],
-  "SelectedNode": "\\Fiorello\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Fiorello\\DAL\\AppDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
