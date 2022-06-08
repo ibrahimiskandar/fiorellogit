@@ -1,5 +1,6 @@
 ﻿using Fiorello.DAL;
 using Fiorello.Models;
+using Fiorello.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,12 @@ namespace Fiorello.Controllers
         }
         public IActionResult Index()
         {
-            List<Slide> slides = _context.Slides.ToList();
-            Summary summary = _context.Summary.FirstOrDefault();
-            return View(slides);
+            HomeViewModel home = new HomeViewModel
+            {
+                Slides = _context.Slides.ToList(),
+                Summary = _context.Summary.FirstOrDefault()
+            };
+            return View(home);
         }
     }
 }
