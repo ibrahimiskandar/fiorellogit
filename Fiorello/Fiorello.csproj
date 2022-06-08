@@ -7,6 +7,8 @@
   <ItemGroup>
     <Compile Remove="Migrations\20220608205743_CreateProductCategoryTables.cs" />
     <Compile Remove="Migrations\20220608205743_CreateProductCategoryTables.Designer.cs" />
+    <Compile Remove="Migrations\20220608210749_CreateProductCatagoryTables.cs" />
+    <Compile Remove="Migrations\20220608210749_CreateProductCatagoryTables.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
