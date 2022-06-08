@@ -1,6 +1,5 @@
 ﻿
-@using Fiorello.Models
-@using Fiorello.ViewModels
+
 @model HomeViewModel
 @{
     ViewData["Title"] = "Index";
@@ -82,7 +81,7 @@
                         <div class="product-item text-center" data-id="@pr.Category.Name.ToLower()">
                             <div class="img">
                                 <a href="">
-                                    <img src="~/img/@pr.Images" class="img-fluid" alt="">
+                                    <img src="~/img/@pr.Images.FirstOrDefault().Url" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="title mt-3">

@@ -143,8 +143,6 @@ C:\Users\ibrahimiskandar\source\repos\Fiorello\Fiorello\bin\Debug\netcoreapp3.1\
 C:\Users\ibrahimiskandar\source\repos\Fiorello\Fiorello\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ibrahimiskandar\source\repos\Fiorello\Fiorello\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ibrahimiskandar\source\repos\Fiorello\Fiorello\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.dll
-C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.pdb
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Fiorello.exe
@@ -166,6 +164,7 @@ C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Micro
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -282,10 +281,12 @@ C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiore
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.RazorCoreGenerate.cache
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.RazorTargetAssemblyInfo.cache
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.RazorTargetAssemblyInfo.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.Views.pdb
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.csproj.CopyComplete
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.dll
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.pdb
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.genruntimeconfig.cache
-C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
