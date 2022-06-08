@@ -290,3 +290,7 @@ C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiore
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.dll
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.pdb
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.genruntimeconfig.cache
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
