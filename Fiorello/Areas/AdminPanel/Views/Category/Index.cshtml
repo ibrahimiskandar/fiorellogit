@@ -2,6 +2,7 @@
 @model IEnumerable<Category>
 @{
     ViewData["Title"] = "Index";
+    int count = 1;
 }
 
 <h1>Index</h1>
@@ -33,7 +34,7 @@
                             {
                                 <tr>
                                     <td>
-                                        1
+                                        @count
                                     </td>
                                     <td>
                                         @ct.Name
@@ -47,6 +48,7 @@
                                         </a>
                                     </td>
                                 </tr>
+                                count++;
                             }
                         </tbody>
                     </table>

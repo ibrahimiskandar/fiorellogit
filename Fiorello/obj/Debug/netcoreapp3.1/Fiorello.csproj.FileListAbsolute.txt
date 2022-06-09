@@ -446,3 +446,4 @@ C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fio
 C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.pdb
 C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fiorello.genruntimeconfig.cache
 C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Index.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Index.cshtml.g.cs
