@@ -56,5 +56,13 @@ namespace Fiorello.Areas.AdminPanel.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult Update(int? id)
+        {
+            if (id == null)
+                return BadRequest();
+
+            return View();
+        }
     }
 }
