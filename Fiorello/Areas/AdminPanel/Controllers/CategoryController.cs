@@ -35,14 +35,7 @@ namespace Fiorello.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Create(CategoryCreateVM category)
         {
             if (!ModelState.IsValid) return View();
-            bool isExist = false;
-            foreach (var ct in categories)
-            {
-                if (category.Name.ToLower() == ct.Name.ToLower())
-                {
-                    isExist = true; break;
-                }
-            }
+            bool isExist = categories.Where(c => !c.IsDeleted).Any(c => c.Name.ToLower() == category.Name.ToLower());
             if (isExist)
             {
                 ModelState.AddModelError("Name", $"{category.Name} is exist");
@@ -77,21 +70,13 @@ namespace Fiorello.Areas.AdminPanel.Controllers
         {
             if (id == null)
                 return BadRequest();
-
             Category categoryDb = _context.Categories.Where(c => !c.IsDeleted).FirstOrDefault(c => c.Id == id);
-            if (categoryDb == null) 
+            if (categoryDb == null)
                 return NotFound();
-
-            if (category.Name.ToLower() == categoryDb.Name.ToLower()) 
+            if (category.Name.ToLower() == categoryDb.Name.ToLower())
                 return RedirectToAction(nameof(Index));
-            bool isExist = false;
-            foreach (var ct in categories)
-            {
-                if (category.Name.ToLower() == ct.Name.ToLower())
-                {
-                    isExist = true; break;
-                }
-            }
+
+            bool isExist = categories.Where(c => !c.IsDeleted).Any(c => c.Name.ToLower() == category.Name.ToLower());
             if (isExist)
             {
                 ModelState.AddModelError("Name", $"{category.Name} is exist");
@@ -101,6 +86,19 @@ namespace Fiorello.Areas.AdminPanel.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
+        }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+                return BadRequest();
+
+            Category categoryDb = _context.Categories.Where(c => !c.IsDeleted).FirstOrDefault(c => c.Id == id);
+            if (categoryDb == null)
+                return NotFound();
+
+            categoryDb.IsDeleted = true;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
