@@ -448,3 +448,4 @@ C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Fio
 C:\Users\classtime\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Index.cshtml.g.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Index.cshtml.g.cs
 C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Create.cshtml.g.cs
+C:\Users\Ibrahim\Source\Repos\fiorellogit\Fiorello\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Category\Update.cshtml.g.cs

@@ -62,7 +62,13 @@ namespace Fiorello.Areas.AdminPanel.Controllers
             if (id == null)
                 return BadRequest();
 
-            return View();
+            Category category = _context.Categories.FirstOrDefault(c => c.Id == id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            return View(category);
         }
     }
 }
