@@ -21,7 +21,7 @@ namespace Fiorello.Areas.AdminPanel.Controllers
             categories = _context.Categories.Where(ct => !ct.IsDeleted);
         }
         public IActionResult Index()
-        { 
+        {
             return View(categories);
         }
 
@@ -62,13 +62,45 @@ namespace Fiorello.Areas.AdminPanel.Controllers
             if (id == null)
                 return BadRequest();
 
-            Category category = _context.Categories.FirstOrDefault(c => c.Id == id);
+            Category category = _context.Categories.Where(c => !c.IsDeleted).FirstOrDefault(c => c.Id == id);
             if (category == null)
             {
                 return NotFound();
             }
 
             return View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int? id, Category category)
+        {
+            if (id == null)
+                return BadRequest();
+
+            Category categoryDb = _context.Categories.Where(c => !c.IsDeleted).FirstOrDefault(c => c.Id == id);
+            if (categoryDb == null) 
+                return NotFound();
+
+            if (category.Name.ToLower() == categoryDb.Name.ToLower()) 
+                return RedirectToAction(nameof(Index));
+            bool isExist = false;
+            foreach (var ct in categories)
+            {
+                if (category.Name.ToLower() == ct.Name.ToLower())
+                {
+                    isExist = true; break;
+                }
+            }
+            if (isExist)
+            {
+                ModelState.AddModelError("Name", $"{category.Name} is exist");
+                return View();
+            }
+            categoryDb.Name = category.Name;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }
