@@ -25,5 +25,11 @@ namespace Fiorello.Areas.AdminPanel.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Create(string name)
+        {
+            return View();
+        }
     }
 }

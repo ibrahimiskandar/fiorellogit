@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create New Category</h4>
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="Name">Category</label>
+                        <input type="text" class="form-control" name="Name" id="Name" placeholder="Category Name">
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Create</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
