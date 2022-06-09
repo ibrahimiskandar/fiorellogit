@@ -1,4 +1,5 @@
 ﻿using Fiorello.DAL;
+using Fiorello.Models;
 using Fiorello.ViewModels.VMCategory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -28,9 +29,17 @@ namespace Fiorello.Areas.AdminPanel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(CategoryCreateVM category)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(CategoryCreateVM category)
         {
-            return Json(category);
+            if (!ModelState.IsValid) return View();
+            Category newCategory = new Category
+            {
+                Name = category.Name
+            };
+            await _context.Categories.AddAsync(newCategory);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
