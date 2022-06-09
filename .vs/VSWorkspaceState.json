@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Fiorello",
+    "\\Fiorello\\Areas",
+    "\\Fiorello\\Areas\\AdminPanel",
+    "\\Fiorello\\Areas\\AdminPanel\\Views",
+    "\\Fiorello\\Areas\\AdminPanel\\Views\\Dashboard",
     "\\Fiorello\\DAL",
     "\\Fiorello\\Views",
     "\\Fiorello\\Views\\Shared"
   ],
-  "SelectedNode": "\\Fiorello\\DAL\\AppDbContext.cs",
+  "SelectedNode": "\\Fiorello\\Areas\\AdminPanel\\Views\\Dashboard\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
