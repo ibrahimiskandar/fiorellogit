@@ -1,4 +1,5 @@
 ﻿using Fiorello.DAL;
+using Fiorello.ViewModels.Category;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -27,7 +28,7 @@ namespace Fiorello.Areas.AdminPanel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(string name)
+        public IActionResult Create(CategoryCreateVM category)
         {
             return View();
         }
