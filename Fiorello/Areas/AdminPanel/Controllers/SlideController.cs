@@ -7,16 +7,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fiorello.Areas.AdminPanel.Controllers
 {
+    [Area("AdminPanel")]
     public class SlideController : Controller
     {
-        private AppDbContext _context { get; set; }
+        private AppDbContext _context { get; }
         public SlideController(AppDbContext context)
         {
             _context = context;
         }
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Slides);
         }
     }
 }
