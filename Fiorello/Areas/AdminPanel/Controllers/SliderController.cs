@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace Fiorello.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
-    public class SlideController : Controller
+    public class SliderController : Controller
     {
         private AppDbContext _context { get; }
-        public SlideController(AppDbContext context)
+        public SliderController(AppDbContext context)
         {
             _context = context;
         }
