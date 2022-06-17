@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BIJoqopyQkm+DjS0EyZ11+r8FLOcshhiBVz8/abUTcnelsBE3ELg5JWEU3EoS8+wyzTmqH8cjuMXEK9tumNQJQ==",
+  "dgSpecHash": "HUmjaOlU2HVhGpyav5wpuinExkzWVdmFWn+PWHQmYxP2BeSR1ZwzEAjw6mrFBdYOG8tA0/55bz19UM2lKKnqyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim\\Source\\Repos\\fiorellogit\\Fiorello\\Fiorello.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim\\source\\repos\\fiorellogit\\Fiorello\\Fiorello.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

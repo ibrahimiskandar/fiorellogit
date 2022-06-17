@@ -1,4 +1,5 @@
 using Fiorello.DAL;
+using Fiorello.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -28,6 +29,8 @@ namespace Fiorello
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(_config["ConnectionStrings:Default"])
             );
+
+            services.AddScoped<SettingService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
