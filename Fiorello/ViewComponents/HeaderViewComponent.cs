@@ -18,7 +18,7 @@ namespace Fiorello.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var model= _context.Settings.ToDictionaryAsync(s => s.Key, s => s.Value);
+            var model=  await _context.Settings.ToDictionaryAsync(s => s.Key, s => s.Value);
             return View(model);
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Fiorello.DAL;
 using Fiorello.Models;
 
 namespace Fiorello.ViewModels
@@ -13,5 +14,9 @@ namespace Fiorello.ViewModels
         public List<Product> Products { get; set; }
         public Summary Summary { get; set; }
         public Settings Settings { get; set; }
+
+        
+
     }
+
 }
